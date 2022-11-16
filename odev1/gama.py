@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 def gammaCorrection(src, gamma):
     invGamma = 1 / gamma
 
